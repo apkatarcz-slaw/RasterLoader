@@ -10,7 +10,6 @@ about=Wtyczka pozwala na wczytywanie i kopiowanie arkuszy map w postaci rastrów
     Pracuję na inną wtyczką obsługujacą wszystkie formaty rastrowe czytane przez Qgis.
     W przypadku danych czarno-białych zestaw należy tworzyć z zaznaczonym kolorem czarnym jako przezroczystym.
     Obsługuje tylko rastry tif w trybie RGB, musi być plik *.tfw
-    Obsługuje wszyskie formaty rastrowe rozpoznawane przez Qgis 
     Wczytanie pojedynczego rastra: kliknięcie
     Wczytanie wielu rastrów: kliknięcie + przytrzymanie i zaznaczenie obszaru
     Usuwanie rastrów: analogicznie
@@ -18,7 +17,6 @@ about=Wtyczka pozwala na wczytywanie i kopiowanie arkuszy map w postaci rastrów
     I am working on a other plugin that supports all raster formats readable by QGIS.
     For black and white data, create the dataset with black color set as transparent.
     Working only with RGB raster, required TFW file 
-    Working with all raster format reading by Qgis
     Loading a single raster: click
     Loading multiple rasters: click + hold and drag to select area
     Removing rasters: same way
