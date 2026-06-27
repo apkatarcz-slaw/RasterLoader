@@ -1,16 +1,31 @@
 [general]
-name=RasterLoader
-version=1.0.0
+name=Raster Loader
+version=1.0.3
 qgisMinimumVersion=3.34
 description=Plugin for managing large raster datasets, loading and copying.
-author=Pomysł: Sławek Szymański
+author=Sławek Szymański
 email=apka.tarcz@gmail.com
-
-about=Wtyczka pozwala na wczytywanie i kopiowanie arkuszy map w postaci rastrów.<br><br><b>POLISH:</b><br>W przypadku danych czarno-białych zestaw należy tworzyć z zaznaczonym kolorem czarnym jako przezroczystym.<br><br>Wczytanie pojedynczego rastra: kliknięcie<br>Wczytanie wielu rastrów: kliknięcie + przytrzymanie i zaznaczenie obszaru<br>Usuwanie rastrów: analogicznie<br><br><b>ENGLISH:</b><br>For black and white data, create the dataset with black color set as transparent.<br><br>Loading a single raster: click<br>Loading multiple rasters: click + hold and drag to select area<br>Removing rasters: same way
-
-homepage=https://github.com/apkatarcz-slaw/RasterLoader
+about=Wtyczka pozwala na wczytywanie i kopiowanie arkuszy map w postaci rastrów.
+    POLISH:
+    Pracuję na inną wtyczką obsługujacą wszystkie formaty rastrowe czytane przez Qgis.
+    W przypadku danych czarno-białych zestaw należy tworzyć z zaznaczonym kolorem czarnym jako przezroczystym.
+    Obsługuje tylko rastry tif w trybie RGB, musi być plik *.tfw
+    Obsługuje wszyskie formaty rastrowe rozpoznawane przez Qgis 
+    Wczytanie pojedynczego rastra: kliknięcie
+    Wczytanie wielu rastrów: kliknięcie + przytrzymanie i zaznaczenie obszaru
+    Usuwanie rastrów: analogicznie
+    ENGLISH:
+    I am working on a other plugin that supports all raster formats readable by QGIS.
+    For black and white data, create the dataset with black color set as transparent.
+    Working only with RGB raster, required TFW file 
+    Working with all raster format reading by Qgis
+    Loading a single raster: click
+    Loading multiple rasters: click + hold and drag to select area
+    Removing rasters: same way
+repository=https://github.com/apkatarcz-slaw/RasterLoader
 tracker=https://github.com/apkatarcz-slaw/RasterLoader/issues
-
+homepage=https://github.com/apkatarcz-slaw/RasterLoader
 license=GPL-3.0-or-later
-category=raster
+category=Raster
 icon=icons/icon.png
+tags=raster, loader, big data, kopiowanie, arkusze, mapy
