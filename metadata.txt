@@ -1,25 +1,37 @@
 [general]
 name=Raster Loader
-version=1.0.3
+version=1.0.4
 qgisMinimumVersion=3.34
 description=Plugin for managing large raster datasets, loading and copying.
 author=Sławek Szymański
 email=apka.tarcz@gmail.com
 about=Wtyczka pozwala na wczytywanie i kopiowanie arkuszy map w postaci rastrów.
     POLISH:
-    Pracuję na inną wtyczką obsługujacą wszystkie formaty rastrowe czytane przez Qgis.
     W przypadku danych czarno-białych zestaw należy tworzyć z zaznaczonym kolorem czarnym jako przezroczystym.
-    Obsługuje tylko rastry tif w trybie RGB, musi być plik *.tfw
-    Wczytanie pojedynczego rastra: kliknięcie
-    Wczytanie wielu rastrów: kliknięcie + przytrzymanie i zaznaczenie obszaru
-    Usuwanie rastrów: analogicznie
+    Obsługuje rastry w trybie RGB:
+    GeoTIFF/TIFF, JPEG, JPEG2000, PNG, BMP, IMG (ERDAS),
+    ECW, MrSID, NITF, HDF, NetCDF, GRIB, ASCII Grid, DEM, VRT, MapInfo TAB.
+    Obsługuje pliki georeferencji: ("world files": geotiff, tfw, jgw, pgw, bpw, j2w, wld, prj, aux.xml)
+    Funkcje:
+     1. Wczytywanie rastrów: kliknięcie lub kliknięcie + przytrzymanie i zaznaczenie obszaru (prostokąt).
+     2. Ustawianie przezroczystości: biały (255,255,255) domyślnie, opcjonalnie czarny (0,0,0).
+     3. Zestawy danych zapisywane w osobnych plikach .txt w folderze C:\\Users\\<użytkownik>\\Documents\\qzsit.
+     4. Kopiowanie wszystkich plików o tej samej nazwie bazowej, bez nadpisywania istniejących.
+     5. Usuwanie rastrów: pojedynczo (kliknięcie) lub wielu (zaznaczenie powierzchniowe).
+     6. Aktywacja wczytywania rastrów po kliknięciu akcji „Aktywuj Wczytywanie” na pasku narzędzi.
     ENGLISH:
-    I am working on a other plugin that supports all raster formats readable by QGIS.
     For black and white data, create the dataset with black color set as transparent.
-    Working only with RGB raster, required TFW file 
-    Loading a single raster: click
-    Loading multiple rasters: click + hold and drag to select area
-    Removing rasters: same way
+    Working only with RGB raster:
+    GeoTIFF/TIFF, JPEG, JPEG2000, PNG, BMP, IMG (ERDAS),
+    ECW, MrSID, NITF, HDF, NetCDF, GRIB, ASCII Grid, DEM, VRT, MapInfo TAB.
+    Supports georeference files: ("world files": geotiff, tfw, jgw, pgw, bpw, j2w, wld, prj, aux.xml)
+    Functions:
+     1. Loading rasters: click, or click-and-drag to select an area (rectangle).
+     2. Setting transparency: white (255, 255, 255) by default; black (0, 0, 0) as an option.
+     3. Datasets saved in separate .txt files in the folder C:\Users\<user>\Documents\qzsit.
+     4. Copying all files sharing the same base name, without overwriting existing ones.
+     5. Deleting rasters: individually (by clicking) or multiple (by area selection).
+     6. Activating raster loading by clicking the "Activate Loading" action on the toolbar.
 repository=https://github.com/apkatarcz-slaw/RasterLoader
 tracker=https://github.com/apkatarcz-slaw/RasterLoader/issues
 homepage=https://github.com/apkatarcz-slaw/RasterLoader
